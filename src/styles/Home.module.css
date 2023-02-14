@@ -8,6 +8,12 @@
 .width{
   max-width: 600px;
 }
+
+.width img{
+  display: none;
+ }
+
+
 .main h1{
   font-size: 32px;
   color: #F9F9F9 ;
@@ -30,7 +36,6 @@
 
 
 .input{
-  width: 600px;
   text-align: left;
   color: #AEAEAE;
   margin-top: 2rem;
@@ -54,4 +59,47 @@
   margin-top: 2rem;
   background-color: #04D361;
   cursor: pointer;
+}
+
+@media (max-width: 600px)
+{
+  .main h1
+   {
+    font-size: 18px;
+    text-align: center;
+
+   }
+
+   .main h2
+   {
+    font-size: 16px;
+    text-align: center;
+
+   }
+
+   .main p
+   {
+    font-size: 12px;
+    text-align: center;
+
+   }
+
+   .width{
+    width: calc(100vw - 2rem);
+   }
+
+   .width img{
+    width:  calc(100vw - 2rem);
+    margin-bottom: 2rem;
+   }
+
+
+   .input input{
+    width: calc(100vw - 2rem);
+
+   }
+
+   .button{
+    width: calc(100vw - 2rem);
+   }
 }
