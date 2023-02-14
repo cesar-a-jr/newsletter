@@ -1,5 +1,5 @@
 import Image from "next/image";
-import eFront from '../../assets/efront.svg'
+import eFront from '../../assets/eFront.svg'
 import styles from '@/styles/Header.module.css'
 
 export default function Header(){
